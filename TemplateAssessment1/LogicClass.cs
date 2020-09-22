@@ -37,6 +37,7 @@ namespace TemplateAssessment1
                 }
                 else
                 {
+                    //if you are not shooting, the revolver rotates
                     MessageBox.Show("The revolver just rotated");
                     Bullet = Bullet + 1;
                 }
